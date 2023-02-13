@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="Stoat" size="1.000000 1.491409" />
-  </Tracking>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Stoat" size="1.000000 1.491409"/>
+        <ImageTarget name="Cubo.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="Cubo.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="Cubo.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="Cubo.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="Cubo.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="Cubo.Right" size="1.000000 1.000000"/>
+        <MultiTarget name="Cubo">
+            <Part name="Cubo.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cubo.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cubo.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="Cubo.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="Cubo.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cubo.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
 </QCARConfig>
