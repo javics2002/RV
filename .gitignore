@@ -133,4 +133,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+VRUnrealEngine/Content/AnimatedPondFish/
+VRUnrealEngine/Content/CartoonWaterShader/
+VRUnrealEngine/Content/DynamicVolumetricSky/
 
