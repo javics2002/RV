@@ -136,4 +136,6 @@ crashlytics-build.properties
 VRUnrealEngine/Content/AnimatedPondFish/
 VRUnrealEngine/Content/CartoonWaterShader/
 VRUnrealEngine/Content/DynamicVolumetricSky/
+VRUnrealEngine/Content/STF/
+VRUnrealEngine/Content/ReefKit/
 
